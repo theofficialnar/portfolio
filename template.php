@@ -25,15 +25,24 @@
 
 			<?php
 				require_once 'partials/home.php';
-				require_once 'partials/educational.php';
-				require_once 'partials/work.php';
-				require_once 'partials/skills.php';
+				require_once 'partials/background.php';
 				require_once 'partials/sample.php';
+				require_once 'partials/contact.php';
 			?>
 
 		<div class="tab-content">
 
 	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  $('[data-toggle="popover"]').popover();
+		})
+
+		$('#psu').click(function(){
+			$('#psu_modal').css('display','block');
+		});
+	</script>
 
 </body>
 </html>
