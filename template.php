@@ -4,45 +4,39 @@
 	<title>Nar Cuenca</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="_assets/_slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="_assets/_slick/slick-theme.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.0/css/iziModal.css">
+	<link rel="stylesheet" type="text/css" href="_assets/_css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="_assets/_css/styles.css">
+	
 </head>
 <body>
 
 	<?php
-	require_once 'partials/header.php';
+	require_once '_partials/header.php';
 		?>
 
-	<div class="container">
+	<main class="container">
 
 		<?php
-			require_once 'partials/navbar.php';
+			require_once '_partials/navbar.php';
 		?>
 
 		<div class="tab-content body-cover">
-
 			<?php
-				require_once 'partials/home.php';
-				require_once 'partials/background.php';
-				require_once 'partials/sample.php';
-				require_once 'partials/contact.php';
+				require_once '_partials/home.php';
+				require_once '_partials/background.php';
+				require_once '_partials/sample.php';
+				require_once '_partials/contact.php';
 			?>
-
-		<div class="tab-content">
-
-	</div>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-		  $('[data-toggle="popover"]').popover();
-		})
-
-		$('#psu').click(function(){
-			$('#psu_modal').css('display','block');
-		});
-	</script>
+		</div>
+	</main>
+	<script src="_assets/_js/jquery-3.2.1.min.js"></script>
+	<script src="_assets/_js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="_assets/_slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.0/js/iziModal.js"></script>
+	<script src="_assets/_js/scripts.js"></script>
 
 </body>
 </html>
