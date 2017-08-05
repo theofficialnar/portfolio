@@ -82,12 +82,12 @@ a {
 .year3,
 .year4 {
 	position: absolute;
-	right: -19px;
-    border-radius: 50%;
+	right: -27px;
 	background: #44bba4;
 	display: inline-block;
-	padding: 5px;
-	border-radius: 3px;
+	padding: 8px;
+	border-radius: 30px;
+	border: 2px solid #242729;
 }
 
 .year1 {
@@ -104,6 +104,15 @@ a {
 
 .year4 {
 	top: 353px;
+}
+
+.bubble-text {
+	color: #393e41;
+}
+
+.text-container {
+	height: 100%;
+	padding: 15px;
 }
 
 .bubble-left {
@@ -167,7 +176,82 @@ a {
 	color: #44bba4;
 }
 
-.glyphicon-star {
+.neon-bar {
+	border-radius: 10px;
+	background: #242729;
+	padding: 5px;
+}
+
+.neon-bg {
+	width: 100%;
+	background: #5f686d;
+	border-radius: 5px;
+	position: relative;
+}
+
+.neon-text {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	color: #393e41;
+}
+
+.neon-progress {
+	background: #fff;
+	border-radius: 5px;
+	height: 26px;
+	box-shadow: 0 0 5px #01fe32 inset, 0 0 16px #08ff35, 0 0 20px #08ff35, 0 0 15px #08ff35;
+	-webkit-animation: pulse 2s linear infinite;
+	-moz-animation: pulse 2s linear infinite;
+	animation: pulse 2s linear infinite;
+}
+
+@-webkit-keyframes pulse {
+	50% {box-shadow: 0 0 5px #01fe32 inset, 0 0 10px #08ff35, 0 0 10px #08ff35, 0 0 10px #08ff35;}
+}
+@-moz-keyframes pulse {
+	50% {box-shadow: 0 0 5px #01fe32 inset, 0 0 10px #08ff35, 0 0 10px #08ff35, 0 0 10px #08ff35;}
+}
+@keyframes pulse {
+	50% {box-shadow: 0 0 5px #01fe32 inset, 0 0 10px #08ff35, 0 0 10px #08ff35, 0 0 10px #08ff35;}
+}
+
+.html {
+	width: 100%;
+}
+.css {
+	width: 95%;
+}
+
+.jscript,
+.jquery {
+	width: 83%;
+}
+
+.ajax,
+.svegas {
+	width: 79%;
+}
+
+.php,
+.pshop {
+	width: 75%;
+}
+
+.laravel {
+	width: 60%;
+}
+
+.mysql {
+	width: 80%;
+}
+
+.linux {
+	width: 80%;
+}
+
+/* .glyphicon-star {
 	color: #e7bb41;
 	text-shadow: 0 0 0 #e7bb41;
 	animation: pulse 2s infinite;
@@ -190,7 +274,7 @@ a {
 	100% {
 		text-shadow: 0 0 0 #e7bb41;
 	}
-}
+} */
 
 /*PORTFOLIO*/
 .gallery-icon {
