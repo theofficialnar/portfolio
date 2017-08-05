@@ -3,14 +3,6 @@ body {
 	background: #e7e5df;
 }
 
-header {
-	background: url('../_images/header.jpeg');
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50vh;
-}
-
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
@@ -55,14 +47,164 @@ a {
 	background: #e7e5df !important;
 }
 
+/*HEADER*/
+header {
+	background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(184,210,227,0) 60%,rgba(231,229,223,1) 100%), url('../_images/header.jpeg');
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+}
+
+.h-cont {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40%;
+}
+
+.h-1,
+.h-2,
+.h-3 {
+	font-family: 'Metamorphous', cursive;
+}
+
+.h-1 {
+	animation: blinkh1 15s ease-in-out infinite;
+}
+
+.h-2 {
+	animation: blinkh2 10s ease-in-out infinite;
+}
+
+.h-3 {
+	animation: blinkh3 6s ease-in-out infinite;
+}
+
+@keyframes blinkh1 {
+	0% {
+		opacity: 0
+	}
+
+	20% {
+		opacity: 1
+	}
+
+	30% {
+		opacity: 0
+	}
+
+	60% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@keyframes blinkh2 {
+	0% {
+		opacity: 0
+	}
+
+	50% {
+		opacity: 1
+	}
+
+	80% {
+		opacity: 0
+	}
+
+	90% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@keyframes blinkh3 {
+	0% {
+		opacity: 0
+	}
+
+	60% {
+		opacity: 1
+	}
+	100% {
+		opacity: 0
+	}
+}
+
+.scroll-cont {
+	position: absolute;
+	bottom: 0;
+	left: 48%;
+}
+.arrow {
+	width: 50px;
+	height: 50px;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	animation: scrolldown 2s ease-in-out infinite;
+}
+
+@keyframes scrolldown {
+	0% {
+		transform: translateY(-50px) rotateZ(-45deg);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(-20px) rotateZ(-45deg);
+		opacity: 1;
+	}
+}
 /*MAIN*/
 .avatar {
 	width: 200px;
-	background: white;
+	border: 2px solid #242729;
+	box-shadow: 0 0 5px #e7bb41 inset, 0 0 16px #c9a235, 0 0 20px #c9a235, 0 0 15px #c9a235;
+	-webkit-animation: pulse 2s linear infinite;
+	-moz-animation: pulse 2s linear infinite;
+	animation: pulse 2s linear infinite;
 }
+
+@-webkit-keyframes pulse {
+	50% {box-shadow: 0 0 5px #e7bb41 inset, 0 0 10px #c9a235, 0 0 10px #c9a235, 0 0 10px #c9a235;}
+}
+@-moz-keyframes pulse {
+	50% {box-shadow: 0 0 5px #e7bb41 inset, 0 0 10px #c9a235, 0 0 10px #c9a235, 0 0 10px #c9a235;}
+}
+@keyframes pulse {
+	50% {box-shadow: 0 0 5px #e7bb41 inset, 0 0 10px #c9a235, 0 0 10px #c9a235, 0 0 10px #c9a235;}
+}
+
+/* .avatar-border {
+	width: 200px;
+	border: 3px dashed #e7bb41;
+	animation: revolve 5s infinite;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@keyframes revolve {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(360deg)
+	}
+} */
 
 .avatar-container {
 	margin-bottom: 20px;
+	position: relative;
 }
 
 .hire-icon {

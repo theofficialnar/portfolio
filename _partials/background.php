@@ -321,4 +321,8 @@
 			</div>
 		</div>
 	</div>
+	<!-- resume -->
+	<div style="padding-top: 30px">
+		<a href="_assets/_docs/resume.pdf" download><button class="btn btn-success">Download Resume <i class="fa fa-cloud-download" aria-hidden="true"></i></button></a>
+	</div>
 </div>

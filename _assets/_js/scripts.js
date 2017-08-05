@@ -39,7 +39,29 @@ $(document).ready(function() {
         timeout: '5000',
         timeoutProgressbar: true
     });
-})
+
+    $('#scrollArrow').on('click', function(event) {
+        if (this.hash !== '') {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                window.location.hash = hash;
+            });
+        }
+    });
+
+    $("#particles").particles({
+        amount: 70,
+        duration: {random: true},
+        speed: {speed: 1},
+        layout: "after",
+        color: {random: true},
+        position: {x: 0}
+    });
+
+});
 
 // porfolio gallery modals
 $(document).on('click', '#psuTrigger', function (event) {
@@ -125,3 +147,4 @@ $(document).scroll(function (){
     //     }
     // })
 });
+

@@ -1,5 +1,3 @@
--fix responsiveness
--fix navbar collapse
--add some kind of text on banner
--add profile pic
--add downloadable pdf resume on about me
+-fix portfolio responsiveness
+-add animate on scroll effects
+-add scroll to top button

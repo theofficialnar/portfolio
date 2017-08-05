@@ -1,6 +1,6 @@
 <div id="home" class="tab-pane fade in active text-center">
 	<div class="row avatar-container">
-		<img src="_assets/_images/default_avatar.svg" alt="avatar" class="avatar img-circle">
+		<img src="_assets/_images/dp.png" alt="avatar" class="avatar img-circle">
 		<br>
 		<h1>Nar Cuenca</h1>
 	</div>
