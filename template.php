@@ -15,11 +15,10 @@
 <body>
 
 	<?php
-	require_once '_partials/header.php';
-		?>
+		require_once '_partials/header.php';
+	?>
 
 	<main class="container">
-
 		<?php
 			require_once '_partials/navbar.php';
 		?>
@@ -33,8 +32,14 @@
 			?>
 		</div>
 	</main>
+	
+	<?php
+		require_once '_partials/footer.php';
+	?>
+
 	<script src="_assets/_js/jquery-3.2.1.min.js"></script>
 	<script src="_assets/_js/bootstrap.min.js"></script>
+	 <script src="_assets/_js/form-submission-handler.js"></script> 
 	<script type="text/javascript" src="_assets/_slick/slick.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.0/js/iziModal.js"></script>
 	<script src="_assets/_js/scripts.js"></script>

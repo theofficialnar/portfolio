@@ -11,14 +11,25 @@
 			<h3>Educational Background</h3>
 			<div class="row">
 				<!-- FOR DESKTOP AND TABLET VIEW -->
-				<div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 hidden-xs line">
-					<button class="year" data-toggle="popover" title="Elementary" data-content="San Vicente Alto Elementary School" data-placement="left">Year</button>
+				<div class="col-lg-5 col-md-5 col-sm-5 hidden-xs">
+					<div class="bubble-left">
+						<span style="color: black">Elementary<br>
+						San Vicente Alto Elementary School
+						</span>
+					</div>
 				</div>
-				<div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 hidden-xs line">
-					<button class="year" data-toggle="popover" title="High School" data-content="Misamis Occidental National High School" data-placement="right">Year</button>
+				<div class="col-lg-5 col-lg-offset-7 col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7 hidden-xs ">
+					<div class="bubble-right"></div>
 				</div>
-				<div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 hidden-xs line">
-					<button class="year" data-toggle="popover" title="College" data-content="Liceo de Cagayan University" data-placement="left">Year</button>
+				<div class="col-lg-5 col-md-5 col-sm-5 hidden-xs">
+					<div class="bubble-left">
+						<span style="color: black">Elementary<br>
+						San Vicente Alto Elementary School
+						</span>
+					</div>
+				</div>
+				<div class="col-lg-5 col-lg-offset-7 col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7 hidden-xs ">
+					<div class="bubble-right"></div>
 				</div>
 				<!-- FOR MOBILE VIEW -->
 				<div class="col-xs-8 col-xs-offset-2">
@@ -36,6 +47,13 @@
 							<div class="panel-body" style="color: #393e41">Liceo de Cagayan University</div>
 						</div>
 					</div>
+				</div>
+				<!-- Yellow line -->
+				<div id="line" class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+					<div class="year1 hidden-xs">Year</div>
+					<div class="year2 hidden-xs">Year</div>
+					<div class="year3 hidden-xs">Year</div>
+					<div class="year4 hidden-xs">Year</div>
 				</div>
 			</div>
 		</div>

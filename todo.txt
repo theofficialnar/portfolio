@@ -1,0 +1,5 @@
+-fix responsiveness
+-fix navbar collapse
+-add some kind of text on banner
+-add profile pic
+-add downloadable pdf resume on about me

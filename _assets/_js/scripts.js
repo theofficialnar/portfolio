@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $('[data-toggle="popover"]').popover();
+
     $('#psu').iziModal({
         title: 'Pink Sadistic Unicorns',
         subtitle: 'A band website made with pure HTML and CSS.<br><a href="https://theofficialnar.github.io/Tuitt-Capstone1/" target="_blank"><button class="btn btn-default btn-xs">Live Preview</button></a>',
@@ -27,8 +28,20 @@ $(document).ready(function() {
         transitionOut: 'fadeOutUp'
       
     });
+
+    $('#succEmail').iziModal({
+        title: 'Email successfully sent!',
+        subtitle: 'Thank you for contacting me. I\'ll get back to you soon.',
+        headerColor: '#00af66',
+        icon: 'fa fa-thumbs-o-up',
+        transitionIn: 'fadeInUp',
+        transitionOut: 'fadeOutUp',
+        timeout: '5000',
+        timeoutProgressbar: true
+    });
 })
 
+// porfolio gallery modals
 $(document).on('click', '#psuTrigger', function (event) {
     event.preventDefault();
     $('#psu').iziModal('open');
@@ -90,4 +103,25 @@ $(document).on('click', '#pi4Trigger', function (event) {
         focusOnSelect: true,
         autoplay: true
     });
+});
+
+// contact form modal
+$(document).on('click', '#succEmailTrigger', function (event) {
+    event.preventDefault();
+    $('#succEmail').iziModal('open');
+});
+
+$(document).scroll(function (){
+    var doc = $(this).scrollTop();
+    if(doc > 200){
+        $('.year').trigger('click');
+    }
+    
+    // $('.edu').each(function(){
+    //     if(doc > 150){
+    //         $(this).fadeIn();
+    //     }else{
+    //         $(this).fadeOut();
+    //     }
+    // })
 });

@@ -70,20 +70,88 @@ a {
 }
 
 /*BACKGROUND*/
-.line {
-	border-left: 3px solid #e7bb41;
-	position: relative;
-	background: #393e41;
-	min-height: 100px;
-	color: #393e41;
+
+#line {
+	border-right: 3px solid #e7bb41;
+	position: absolute;
+	height: 95%;
 }
 
-.year {
+.year1,
+.year2,
+.year3,
+.year4 {
 	position: absolute;
-	top: 40px;
-    left: -25px;
+	right: -19px;
     border-radius: 50%;
-    background: #44bba4;
+	background: #44bba4;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.year1 {
+	top: 40px;
+}
+
+.year2 {
+	top: 144px;
+}
+
+.year3 {
+	top: 248px;
+}
+
+.year4 {
+	top: 353px;
+}
+
+.bubble-left {
+	position: relative;
+	width: 100%;
+	height: 105px;
+	padding: 0px;
+	background: #e7e5df;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.bubble-left:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 0 15px 15px;
+	border-color: transparent #e7e5df;
+	display: block;
+	width: 0;
+	z-index: 1;
+	right: -15px;
+	top: 37px;
+}
+
+.bubble-right {
+	position: relative;
+	width: 100%;
+	height: 105px;
+	padding: 0px;
+	background: #e7e5df;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.bubble-right:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent #e7e5df;
+	display: block;
+	width: 0;
+	z-index: 1;
+	left: -15px;
+	top: 37px;
 }
 
 .panel-text {
@@ -141,4 +209,22 @@ a {
 .thumbnail:hover {
 	transform: scale(1.1);
 	cursor: pointer;
+}
+
+/*CONTACT ME*/
+.social_icons {
+	font-size: 50px;
+	padding: 10px;
+	transition: 300ms ease-in-out;
+}
+
+.social_icons:hover {
+	color: #c9c7c0;
+}
+.social_icons > a {
+	color: inherit;
+}
+
+.social_icons > a:hover {
+	transform: scale(1.1)
 }
