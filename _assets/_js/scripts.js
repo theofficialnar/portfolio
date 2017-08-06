@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $('[data-toggle="popover"]').popover();
 
     $('#psu').iziModal({
@@ -8,7 +8,7 @@ $(document).ready(function() {
         icon: 'fa fa-desktop',
         transitionIn: 'fadeInUp',
         transitionOut: 'fadeOutUp'
-      
+
     });
     $('#rodb').iziModal({
         title: 'myRagnarokdb',
@@ -17,7 +17,7 @@ $(document).ready(function() {
         icon: 'fa fa-desktop',
         transitionIn: 'fadeInUp',
         transitionOut: 'fadeOutUp'
-      
+
     });
     $('#pi4').iziModal({
         title: 'PayIt4ward',
@@ -26,7 +26,7 @@ $(document).ready(function() {
         icon: 'fa fa-desktop',
         transitionIn: 'fadeInUp',
         transitionOut: 'fadeOutUp'
-      
+
     });
 
     $('#succEmail').iziModal({
@@ -40,13 +40,13 @@ $(document).ready(function() {
         timeoutProgressbar: true
     });
 
-    $('#scrollArrow').on('click', function(event) {
+    $('#scrollArrow').on('click', function (event) {
         if (this.hash !== '') {
             event.preventDefault();
             var hash = this.hash;
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 800, function () {
                 window.location.hash = hash;
             });
         }
@@ -54,14 +54,52 @@ $(document).ready(function() {
 
     $("#particles").particles({
         amount: 70,
-        duration: {random: true},
-        speed: {speed: 1},
+        duration: {
+            random: true
+        },
+        speed: {
+            speed: 1
+        },
         layout: "after",
-        color: {random: true},
-        position: {x: 0}
+        color: {
+            random: true
+        },
+        position: {
+            x: 0
+        }
     });
 
+
+
+
 });
+
+//auto init AOS on height change
+$(function () {
+    AOS.init();
+
+    onElementHeightChange(document.body, function () {
+        AOS.refresh();
+    });
+});
+
+function onElementHeightChange(elm, callback) {
+    var lastHeight = elm.clientHeight
+    var newHeight;
+
+    (function run() {
+        newHeight = elm.clientHeight;
+        if (lastHeight !== newHeight) callback();
+        lastHeight = newHeight;
+
+        if (elm.onElementHeightChangeTimer) {
+            clearTimeout(elm.onElementHeightChangeTimer);
+        }
+
+        elm.onElementHeightChangeTimer = setTimeout(run, 200);
+    })();
+}
+
 
 // porfolio gallery modals
 $(document).on('click', '#psuTrigger', function (event) {
@@ -133,12 +171,12 @@ $(document).on('click', '#succEmailTrigger', function (event) {
     $('#succEmail').iziModal('open');
 });
 
-$(document).scroll(function (){
+$(document).scroll(function () {
     var doc = $(this).scrollTop();
-    if(doc > 200){
+    if (doc > 200) {
         $('.year').trigger('click');
     }
-    
+
     // $('.edu').each(function(){
     //     if(doc > 150){
     //         $(this).fadeIn();
@@ -147,4 +185,3 @@ $(document).scroll(function (){
     //     }
     // })
 });
-

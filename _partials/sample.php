@@ -1,26 +1,20 @@
 <div id="sample" class="tab-pane fade">
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 text-center">
+		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 text-center" data-aos="fade-up">
 			<h1 class="heading-no-margin">Portfolio</h1>
 			<p>Take a quick peek at my latest creations!</p>
 			<hr>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-4 text-center">
-			<div class="col-lg-6 col-md-6">
-				<img src="_assets/_images/psu.png" alt="psu_cover" class="thumbnail gallery-icon" id="psuTrigger">
-			</div>
+		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center" data-aos="flip-down">
+			<img src="_assets/_images/psu.png" alt="psu_cover" class="thumbnail img-responsive" id="psuTrigger">
 		</div>
-		<div class="col-lg-4 text-center">
-			<div class="col-lg-6 col-md-6">
-				<img src="_assets/_images/rodb1.png" alt="rodb_cover" class="thumbnail gallery-icon" id="rodbTrigger">
-			</div>
+		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center" data-aos="flip-down">
+			<img src="_assets/_images/rodb1.png" alt="rodb_cover" class="thumbnail img-responsive" id="rodbTrigger">
 		</div>
-		<div class="col-lg-4 text-center">
-			<div class="col-lg-6 col-md-6">
-				<img src="_assets/_images/pi41.png" alt="pi4_cover" class="thumbnail gallery-icon" id="pi4Trigger">
-			</div>
+		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center" data-aos="flip-down">
+			<img src="_assets/_images/pi41.png" alt="pi4_cover" class="thumbnail img-responsive" id="pi4Trigger">
 		</div>
 	</div>
 
