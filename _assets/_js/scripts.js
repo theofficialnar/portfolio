@@ -3,29 +3,32 @@ $(document).ready(function () {
 
     $('#psu').iziModal({
         title: 'Pink Sadistic Unicorns',
-        subtitle: 'A band website made with pure HTML and CSS.<br><a href="https://theofficialnar.github.io/Tuitt-Capstone1/" target="_blank"><button class="btn btn-default btn-xs">Live Preview</button></a>',
+        subtitle: 'A band website made with pure HTML and CSS.<br><a href="https://theofficialnar.github.io/Tuitt-Capstone1/" target="_blank"><button class="btn btn-default btn-xs"><i class="fa fa-eye" aria-hidden="true"></i> Live Preview</button></a> <a href="https://github.com/theofficialnar/Tuitt-Capstone1" target="_blank"><button class="btn btn-default btn-xs"><i class="fa fa-github" aria-hidden="true"></i> Source</button></a>',
         width: '800px',
         icon: 'fa fa-desktop',
         transitionIn: 'fadeInUp',
-        transitionOut: 'fadeOutUp'
+        transitionOut: 'fadeOutUp',
+        headerColor: '#e7bb41'
 
     });
     $('#rodb').iziModal({
         title: 'myRagnarokdb',
-        subtitle: 'A Ragnarok database website made with HTML, CSS, JQuery, AJAX, PHP & MySQL.<br><a href="http://myragnarokdb.x10host.com/" target="_blank"><button class="btn btn-default btn-xs">Live Preview</button></a>',
+        subtitle: 'A Ragnarok database website made with HTML, CSS, JQuery, AJAX, PHP & MySQL.<br><a href="http://myragnarokdb.x10host.com/" target="_blank"><button class="btn btn-default btn-xs"><i class="fa fa-eye" aria-hidden="true"></i> Live Preview</button></a> <a href="https://github.com/theofficialnar/ragnarok_database_cs2" target="_blank"><button class="btn btn-default btn-xs"><i class="fa fa-github" aria-hidden="true"></i> Source</button></a>',
         width: '800px',
         icon: 'fa fa-desktop',
         transitionIn: 'fadeInUp',
-        transitionOut: 'fadeOutUp'
+        transitionOut: 'fadeOutUp',
+        headerColor: '#e7bb41'
 
     });
     $('#pi4').iziModal({
         title: 'PayIt4ward',
-        subtitle: 'A payroll website made with HTML, CSS, JQuery, AJAX, Laravel & MySQL.<br><a href="https://payit4ward.000webhostapp.com/login" target="_blank"><button class="btn btn-default btn-xs">Live Preview</button></a>',
+        subtitle: 'A payroll website made with HTML, CSS, JQuery, AJAX, Laravel & MySQL.<br><a href="https://payit4ward.000webhostapp.com/login" target="_blank"><button class="btn btn-default btn-xs"><i class="fa fa-eye" aria-hidden="true"></i> Live Preview</button></a> <a href="https://github.com/theofficialnar/PayIt4ward_cs3" target="_blank"><button class="btn btn-default btn-xs"><i class="fa fa-github" aria-hidden="true"></i> Source</button></a>',
         width: '800px',
         icon: 'fa fa-desktop',
         transitionIn: 'fadeInUp',
-        transitionOut: 'fadeOutUp'
+        transitionOut: 'fadeOutUp',
+        headerColor: '#e7bb41'
 
     });
 
@@ -169,19 +172,4 @@ $(document).on('click', '#pi4Trigger', function (event) {
 $(document).on('click', '#succEmailTrigger', function (event) {
     event.preventDefault();
     $('#succEmail').iziModal('open');
-});
-
-$(document).scroll(function () {
-    var doc = $(this).scrollTop();
-    if (doc > 200) {
-        $('.year').trigger('click');
-    }
-
-    // $('.edu').each(function(){
-    //     if(doc > 150){
-    //         $(this).fadeIn();
-    //     }else{
-    //         $(this).fadeOut();
-    //     }
-    // })
 });

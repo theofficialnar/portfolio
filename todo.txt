@@ -1,2 +1,1 @@
--add animate on scroll effects
 -add scroll to top button
