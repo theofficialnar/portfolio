@@ -8,7 +8,7 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center" data-aos="flip-down">
-			<img src="_assets/_images/psu.png" alt="psu_cover" class="thumbnail img-responsive" id="psuTrigger">
+			<img src="_assets/_images/psu.PNG" alt="psu_cover" class="thumbnail img-responsive" id="psuTrigger">
 		</div>
 		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center" data-aos="flip-down">
 			<img src="_assets/_images/rodb1.png" alt="rodb_cover" class="thumbnail img-responsive" id="rodbTrigger">
@@ -23,36 +23,36 @@
 	<div id="psu">
 		<div id="psuSlider">
 			<div>
-				<img src="_assets/_images/psu.png" alt="psu_slide1" class="img-responsive">
+				<img src="_assets/_images/psu.PNG" alt="psu_slide1" class="img-responsive">
 			</div>
 			<div>
-				<img src="_assets/_images/psu1.png" alt="psu_slide2" class="img-responsive">
+				<img src="_assets/_images/psu1.PNG" alt="psu_slide2" class="img-responsive">
 			</div>
 			<div>
-				<img src="_assets/_images/psu2.png" alt="psu_slide3" class="img-responsive">
+				<img src="_assets/_images/psu2.PNG" alt="psu_slide3" class="img-responsive">
 			</div>
 			<div>
-				<img src="_assets/_images/psu3.png" alt="psu_slide4" class="img-responsive">
+				<img src="_assets/_images/psu3.PNG" alt="psu_slide4" class="img-responsive">
 			</div>
 			<div>
-				<img src="_assets/_images/psu4.png" alt="psu_slide5" class="img-responsive">
+				<img src="_assets/_images/psu4.PNG" alt="psu_slide5" class="img-responsive">
 			</div>
 		</div>
 		<div id="psuNav">
 			<div class="galleryNav">
-				<img src="_assets/_images/psu.png" alt="psu_slide1" class="img-responsive">
+				<img src="_assets/_images/psu.PNG" alt="psu_slide1" class="img-responsive">
 			</div>
 			<div class="galleryNav">
-				<img src="_assets/_images/psu1.png" alt="psu_slide2" class="img-responsive">
+				<img src="_assets/_images/psu1.PNG" alt="psu_slide2" class="img-responsive">
 			</div>
 			<div class="galleryNav">
-				<img src="_assets/_images/psu2.png" alt="psu_slide3" class="img-responsive">
+				<img src="_assets/_images/psu2.PNG" alt="psu_slide3" class="img-responsive">
 			</div>
 			<div class="galleryNav">
-				<img src="_assets/_images/psu3.png" alt="psu_slide4" class="img-responsive">
+				<img src="_assets/_images/psu3.PNG" alt="psu_slide4" class="img-responsive">
 			</div>
 			<div class="galleryNav">
-				<img src="_assets/_images/psu4.png" alt="psu_slide5" class="img-responsive">
+				<img src="_assets/_images/psu4.PNG" alt="psu_slide5" class="img-responsive">
 			</div>
 		</div>
 	</div>

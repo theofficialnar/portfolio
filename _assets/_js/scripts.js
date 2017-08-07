@@ -71,10 +71,6 @@ $(document).ready(function () {
             x: 0
         }
     });
-
-
-
-
 });
 
 //auto init AOS on height change

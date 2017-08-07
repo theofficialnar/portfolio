@@ -35,7 +35,7 @@
 				<span class="social_icons"><a href="https://github.com/theofficialnar" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span>
 				<span class="social_icons"><a href="https://www.instagram.com/heyitsnar/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
 				<span class="social_icons"><a href="https://twitter.com/TheOfficialNar" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
-				<span class="social_icons"><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+				<span class="social_icons"><a href="https://www.linkedin.com/in/lunar-jay-cuenca-758057149/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
 			</div>
 		</div>
 	</div>
