@@ -84,56 +84,40 @@
 		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
 			<h3 data-aos="fade-up">Work Experience</h3>
 			<div class="panel-group" id="accordion">
-				<div class="panel panel-default" data-aos="flip-left">
+				<div class="panel panel-default" data-aos="fade-up">
 					<div class="panel-heading">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="accordion-link">
-							<h4 class="panel-title">TOSHIBA USA - Technical Support Representative</h4>
-						</a>
-						</div>
-					<div id="collapse1" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p class="panel-text panel-company">Teleperformance</p>
-							<p class="panel-text">September 2013 – February 2014</p>
-						</div>
+						<h4 class="panel-title">TOSHIBA USA - Technical Support Representative</h4>
+					</div>
+					<div class="panel-body">
+						<p class="panel-text panel-company">Teleperformance</p>
+						<p class="panel-text">September 2013 – February 2014</p>
 					</div>
 				</div>
-				<div class="panel panel-default" data-aos="flip-right">
+				<div class="panel panel-default" data-aos="fade-up">
 					<div class="panel-heading">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="accordion-link">
-							<h4 class="panel-title">ASUS Australia, New Zealand and Philippines – Technical Support Representative</h4>
-						</a>
+						<h4 class="panel-title">ASUS Australia, New Zealand and Philippines – Technical Support Representative</h4>
 					</div>
-					<div id="collapse2" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p class="panel-text panel-company">Teleperformance</p>
-							<p class="panel-text">February 2014 – June 2014</p>
-						</div>
+					<div class="panel-body">
+						<p class="panel-text panel-company">Teleperformance</p>
+						<p class="panel-text">February 2014 – June 2014</p>
 					</div>
 				</div>
-				<div class="panel panel-default" data-aos="flip-left">
+				<div class="panel panel-default" data-aos="fade-up">
 					<div class="panel-heading">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="accordion-link">
-							<h4 class="panel-title">Snippet Writer</h4>
-						</a>
+						<h4 class="panel-title">Snippet Writer</h4>
 					</div>
-					<div id="collapse3" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p class="panel-text panel-company">Thumbtack</p>
-							<p class="panel-text">May 2015 – May 2016</p>
-						</div>
+					<div class="panel-body">
+						<p class="panel-text panel-company">Thumbtack</p>
+						<p class="panel-text">May 2015 – May 2016</p>
 					</div>
 				</div>
-				<div class="panel panel-default" data-aos="flip-right">
+				<div class="panel panel-default" data-aos="fade-up">
 					<div class="panel-heading">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="accordion-link">
-							<h4 class="panel-title">Content Manager</h4>
-						</a>
+						<h4 class="panel-title">Content Manager</h4>
 					</div>
-					<div id="collapse4" class="panel-collapse collapse">
-						<div class="panel-body">
-							<p class="panel-text panel-company">Really Social Media</p>
-							<p class="panel-text">March 2016 – April 2017</p>
-						</div>
+					<div class="panel-body">
+						<p class="panel-text panel-company">Really Social Media</p>
+						<p class="panel-text">March 2016 – April 2017</p>
 					</div>
 				</div>
 			</div>
@@ -141,14 +125,14 @@
 	</div>
 	<!-- Skills -->
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
-			<h3 data-aos="fade-up">Skills</h3>
+		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2" data-aos="fade-up">
+			<h3>Skills</h3>
 			<!-- html -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>HTML</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -161,10 +145,10 @@
 			</div>
 			<!-- css -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>CSS</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -177,10 +161,10 @@
 			</div>
 			<!-- Javascript -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>Javascript</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6"">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -193,10 +177,10 @@
 			</div>
 			<!-- jquery -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>JQuery</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -209,10 +193,10 @@
 			</div>
 			<!-- ajax -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>AJAX</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -225,10 +209,10 @@
 			</div>
 			<!-- php -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>PHP</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -241,10 +225,10 @@
 			</div>
 			<!-- laravel -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>Laravel</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -257,10 +241,10 @@
 			</div>
 			<!-- mysql -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>MySQL</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -273,10 +257,10 @@
 			</div>
 			<!-- photoshop -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>Photoshop / GIMP</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">
@@ -287,28 +271,12 @@
 					</h3>
 				</div>
 			</div>
-			<!-- sony vegas -->
-			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
-					<h3>Sony Vegas Pro</h3>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
-					<h3>
-						<div class="neon-bar">
-							<div class="neon-bg">
-								<div class="neon-progress svegas"></div>
-								<div class="neon-text">79%</div>
-							</div>
-						</div>
-					</h3>
-				</div>
-			</div>
 			<!-- linux -->
 			<div class="row">
-				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6" data-aos="zoom-in-left">
+				<div class="col-lg-3 col-lg-offset-3 col-md-6 col-sm-6">
 					<h3>Linux</h3>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h3>
 						<div class="neon-bar">
 							<div class="neon-bg">

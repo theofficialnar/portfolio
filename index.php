@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="_assets/_slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="_assets/_slick/slick-theme.css"/>

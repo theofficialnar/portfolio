@@ -60,15 +60,20 @@ header {
 
 .h-cont {
 	position: absolute;
-	left: 0;
-	right: 0;
+	left: 50%;
+	/* right: 0; */
 	top: 40%;
+	transform: translate(-50%, -50%);
+	border: 5px solid #333;
+	padding: 50px;
+	
 }
 
 .h-1,
 .h-2,
-.h-3 {
-	font-family: 'Metamorphous', cursive;
+.h-3,
+.header-title {
+	font-family: 'Bowlby One', cursive;
 }
 
 .h-1 {
